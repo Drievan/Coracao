@@ -1,0 +1,46 @@
+
+body{
+  
+  padding: 0%;
+  text-align: center;
+}
+  
+  h1{
+    font-size: 16px;
+    color: brown;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  
+  p{
+    font-size: 14px;
+    color: rgb(165, 116, 42);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+
+
+
+}
+  
+  .animation{
+    width: 500px;
+    height: 380px;
+    animation-name:pulse;
+    animation: 2s linear infinite;
+    animation: batimentos 2s linear infinite;
+    
+
+  }
+  @keyframes pulse {
+    0% {opacity: 1;}
+    50%{opacity:0,2;}
+    100%{opacity: 1;}
+  }
+
+  @keyframes batimentos {
+    10%{transform: scale(2.1);}
+  }
+    
